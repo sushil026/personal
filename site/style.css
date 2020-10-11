@@ -1,0 +1,39 @@
+body{
+	background-color: LightGray;
+	font-size: 150%;
+}
+h2{
+	text-align: center;
+	color: red;
+}
+h1{
+	text-align: center;
+	color: blue;
+}
+.high{
+	background: yellow;
+	font-style: italic;
+	font-weight: bold;
+}
+p, h1{
+	color: green;
+	text-align: center;
+}
+section li:nth-child(odd) {
+	list-style: none;
+	background-color: yellow;
+	width: 200px;
+}
+section li:nth-child(even) {
+	list-style: none;
+	background-color: aquamarine;
+	width: 200px;
+}
+section li:nth-child(odd):hover{
+	background-color: gold;
+	width: 100px
+}	
+section li:nth-child(even):hover{
+	background-color: CornflowerBlue;
+	width: 100px
+}		
