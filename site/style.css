@@ -1,6 +1,7 @@
 body{
 	background-color: LightGray;
 	font-size: 150%;
+	font-family: cursive;
 }
 h2{
 	text-align: center;
@@ -22,7 +23,7 @@ p, h1{
 section li:nth-child(odd) {
 	list-style: none;
 	background-color: yellow;
-	width: 200px;
+	
 }
 section li:nth-child(even) {
 	list-style: none;
