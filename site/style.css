@@ -1,7 +1,17 @@
-body{
+body{border: 0;
+	margin: 0;
 	background-color: LightGray;
 	font-size: 150%;
 	font-family: cursive;
+}
+.test{
+	background: blue;
+	padding: 5px;
+	border: 30px red;
+	margin: 20px;
+}
+.testsub{
+	background: green;
 }
 h2{
 	text-align: center;
